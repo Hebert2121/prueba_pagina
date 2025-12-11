@@ -34,6 +34,7 @@ body {
   display: flex;
   list-style: none;
   border: none;
+  text-shadow:2px 2px 5px #ff0000;
 }
 
 
@@ -71,6 +72,15 @@ body {
 }
 .lomejor h1{
     color: #000000;
+}
+.lomejor .card1{
+    text-shadow:2px 2px 5px #ff0000
+}
+.lomejor .card2{
+    text-shadow:2px 2px 5px #ff0000
+}
+.lomejor .card3{
+    text-shadow:2px 2px 5px #ff0000
 }
 /* Nosotros*/
 
@@ -246,4 +256,5 @@ input{
     border-color: #000000;
     border-radius: 8px;
 }
+
 
