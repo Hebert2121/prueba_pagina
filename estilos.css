@@ -37,8 +37,6 @@ body {
   text-shadow:2px 2px 5px #ff0000;
 }
 
-
-
 .nav-links li:hover{
     background-color: #ab4d1ed5;
     font-size: 20px;
@@ -72,6 +70,7 @@ body {
 }
 .lomejor h1{
     color: #000000;
+    font-weight: bold;
 }
 .lomejor .card1{
     text-shadow:2px 2px 5px #ff0000
@@ -256,5 +255,4 @@ input{
     border-color: #000000;
     border-radius: 8px;
 }
-
 
