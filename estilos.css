@@ -1,0 +1,258 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6b4226;
+  padding: 1rem;
+  background-image: url(https://th.bing.com/th/id/R.8bbb84d83b586682aff265bdd36fe637?rik=ZleCMxBu1ozAsQ&pid=ImgRaw&r=0);
+  
+}
+.navbar img{
+    width: 200px;
+    height: 120px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  border: none;
+  text-shadow:2px 2px 5px #ff0000;
+}
+
+.nav-links li:hover{
+    background-color: #ab4d1ed5;
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 4px #5a5a5a;
+    
+}
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Inicio */
+.presentacion {
+  background: url("https://img.freepik.com/fotos-premium/cafe-moderno-lujo_849761-33897.jpg") no-repeat center center/cover;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  padding: 100px 20px;
+  text-shadow: 1px 04px 5px rgb(227, 169, 169);
+}
+.presentacion p{
+    color: #060300;
+    text-shadow: 1px 04px 5px rgb(255, 255, 255);
+
+}
+.lomejor h1{
+    color: #000000;
+    font-weight: bold;
+}
+.lomejor .card1{
+    text-shadow:2px 2px 5px #ff0000
+}
+.lomejor .card2{
+    text-shadow:2px 2px 5px #ff0000
+}
+.lomejor .card3{
+    text-shadow:2px 2px 5px #ff0000
+}
+/* Nosotros*/
+
+.historia{
+    color: black;
+    text-align: center;
+}
+.mision-vision{
+    color: black;
+    text-align: center;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.equipo img{
+    display: flex;
+    width: 300px;
+    
+}
+
+.el-team{
+  background-color: #6b4226;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center; 
+}
+    
+/* portada lo mejor*/
+.lomejor {
+  display: flex;
+  height: 80%;  
+  justify-content: space-around;
+  margin: 20px;
+  color: #000;
+}
+
+.card1{
+  background-image: url(https://organicboosting.bio/wp-content/uploads/2023/11/Coffee-Journey-Cover.jpg) ;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
+}
+.card2{
+  background-image: url(https://tse1.mm.bing.net/th/id/OIP.gE1rSPOAqOPcd4YJK6lofAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3) ;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
+}
+.card3{
+  background-image: url(https://www.numeroservicioalcliente.com/wp-content/uploads/2023/12/delivery-moto.png) ;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
+}
+
+/* Productos */
+.vendemos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  height: 80%;  
+  justify-content: space-around;
+  margin: 20px;
+  gap: 15px;
+  background-image: url();
+ }
+
+.vendemos h2{
+    font-family: cursive;
+    color: #000;
+
+}
+.lista-productos {
+  display: flex;
+  background-color: #829696;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 200px;
+  text-align: center;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  
+}
+
+/* Galería */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(122, 135, 135, 0.424);
+  
+}
+
+.galeria img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* Blog */
+.articulos {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.articulos h2{
+    color: #000;
+    font-family:cursive;
+} 
+.articulo {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: rgb(143, 145, 145);
+}
+
+.articulo img {
+  width: 150px;
+  margin-right: 20px;
+}
+
+/* Contacto */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+.info-contacto{
+    color: #000;
+    text-align: center;
+    font-family: cursive;
+}
+input{
+    height: 40px;
+    box-sizing: border-box;
+    margin: 5px;
+    border-color: #000000;
+    border-radius: 8px;
+}
+.textarea{
+    height: 40px;
+    box-sizing: border-box;
+    margin: 5px;
+    border-color: #000000;
+    border-radius: 8px;
+}
+
